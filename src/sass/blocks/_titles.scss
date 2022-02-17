@@ -3,4 +3,31 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+    &_left {
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 36px;
+    }
+}
+@media (max-width: 720px){
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 550px){
+    .title {
+        &_left {
+            font-size: 26px;
+        }
+    }
+}
+@media (max-width: 400px){
+    .title {
+        &_left {
+            font-size: 19px;
+        }
+    }
 }

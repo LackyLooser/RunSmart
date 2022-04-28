@@ -2,12 +2,8 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        max-width: 750px;
+        width: 750px;
         margin: 0 auto;
-        img {
-            width: 100%;
-            height: auto;
-        }
     }
     .slick-prev, .slick-next  {
         position: absolute;
@@ -24,10 +20,5 @@
     .slick-next  {
         right: -66px;
         left: auto;
-    }
-}
-@media(max-width: 992px){
-    .carousel{
-        padding: 0;
     }
 }

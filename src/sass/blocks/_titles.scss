@@ -5,34 +5,8 @@
     text-align: center;
     text-transform: uppercase;
     &_left {
-        text-align: left;
-        color: #FFFFFF;
+        color: #fff;
         font-size: 36px;
-    }
-    &_catalog{
-        line-height: 45px;
-        color: #0D0D0D;
-        font-weight: normal;
-    }
-}
-@media (max-width: 720px){
-    .title {
-        &_left {
-            text-align: center;
-        }
-    }
-}
-@media (max-width: 550px){
-    .title {
-        &_left {
-            font-size: 26px;
-        }
-    }
-}
-@media (max-width: 400px){
-    .title {
-        &_left {
-            font-size: 19px;
-        }
+        text-align: left;
     }
 }

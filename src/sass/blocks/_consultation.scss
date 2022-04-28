@@ -1,41 +1,19 @@
-.consultation{
-    height: 680px;
-    background: url('../../img/consultation.jpg') center (center/cover) no-repeat;
-    padding: 100px 0 108px 0;
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../img/consultation.jpg') center (center/cover) no-repeat;
     &__descr {
-        color: #FFFFFF;
-        font-weight: 500;
+        color: #ffffff;
         font-size: 20px;
-        margin-bottom: 36px;
+        font-weight: 500;
     }
-}
-@media (max-width: 1000px){
-    .consultation{
-        padding: 100px 25px 108px 25px;
+    .error {
+        border: 1px solid red;
     }
-    
-}
-@media (max-width: 720px){
-    .consultation{
-        &__descr {
-            text-align: center;
-        }
-    }
-    
-}
-@media (max-width: 550px){
-    .consultation {
-        &__descr {
-            font-size: 15px;
-        }
-    }
-}
-@media (max-width: 475px){
-    .consultation {
-        height: 550px;
-        padding: 80px 0 ;
-        &__descr {
-            font-size: 12px;
-        }
+    label.error {
+        color: #fff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
     }
 }

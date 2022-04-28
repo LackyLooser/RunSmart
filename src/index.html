@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +10,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
-
 <body>
-    <div class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -57,11 +55,11 @@
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
-
+            
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -71,7 +69,7 @@
                         Делимся опытом
                     </div>
                     <div class="advantages__descr">
-                        Наши сотрудники всегда готовы поделиться своим опытом,
+                        Наши сотрудники всегда готовы поделиться своим опытом, 
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>
                 </div>
@@ -81,8 +79,8 @@
                         Заботимся о здоровье
                     </div>
                     <div class="advantages__descr">
-                        Мы работаем для того,
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                        Мы работаем для того, 
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!           
                     </div>
                 </div>
                 <div class="advantages__item">
@@ -91,50 +89,52 @@
                         Учим бегать
                     </div>
                     <div class="advantages__descr">
-                        Помогаем с обучением
+                        Помогаем с обучением 
                         правильной технике бега!<br>
-                        Дружим с крупнейшей школой бега в России -
+                        Дружим с крупнейшей школой бега в России - 
                         <a href="#">I LOVE RUNNING.</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">
-                Получите бесплатную консультацию
-                по подбору пульсометра
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
             </h2>
             <div class="consultation__descr">
-                Просто заполните форму заявки<br>
+                Просто заполните форму заявки<br> 
                 и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
-                <input name="name" placeholder="Ваше имя" type="text">
-                <input name="phone" placeholder="Ваш телефон" type="number">
-                <input name="email" placeholder=" Ваш E-mail" type="email">
-                <button class="button button_form">
-                    заказать кОНСУЛЬТАЦИЮ
-                </button>
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+                <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
-    </div>
-    <div class="carousel">
+    </section>
+
+    <section class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
-                    <img src="./img/slide_1.jpg" alt="slide">
+                    <img src="img/slide_1.jpg" alt="slide">
                 </div>
                 <div>
-                    <img src="./img/slide_2.jpg" alt="slide">
+                    <img src="img/slide_2.jpg" alt="slide">
                 </div>
                 <div>
-                    <img src="./img/slide_3.jpg" alt="slide">
+                    <img src="img/slide_3.jpg" alt="slide">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <section class="catalog">
         <div class="container">
             <h2 class="title">Каталог пульсометров</h2>
@@ -443,6 +443,7 @@
             </div>
         </div>
     </section>
+
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
@@ -487,17 +488,32 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737.0267448501186!2d37.64624047364648!3d55.76831563990905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1559894689029!5m2!1sru!2sua" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <div class="footer__info">
+            <address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
+            <a class="footer__phone" href="tel:84999228974">8 (499) 922-89-74</a>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
+                <a href="#" class="footer__social-item"><img src="icons/instagram.svg" alt="instagram"></a>
+                <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
+            </div>
+        </div>
+    </footer>
+
     <div class="overlay">
         <div class="modal" id="consultation">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text"> 
-                <input name="phone" required placeholder="Ваш телефон" type="number"> 
-                <input name="email" required placeholder="Ваш E-mail" type="email"> 
+                <input name="name" placeholder="Ваше имя" type="text"> 
+                <input name="phone" placeholder="Ваш телефон"> 
+                <input name="email" placeholder="Ваш E-mail" type="email"> 
 
-                <button class="button button_form">заказать консультацию</button>
+                <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
 
@@ -507,10 +523,10 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Ваше имя" type="text"> 
-                <input name="phone" required placeholder="Ваш телефон" type="number"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
                 <input name="email" required placeholder="Ваш E-mail" type="email"> 
 
-                <button class="button button_form">купить</button>
+                <button class="button button_submit">купить</button>
             </form>
         </div>
 
@@ -520,24 +536,16 @@
             <div class="modal__descr">Наш менеджер свяжется с вами 
                 в ближайшее время!</div>
         </div>
+        
     </div>
-    <div class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4304811959933!2d37.644807315829034!3d55.76839498055751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sby!4v1645383474602!5m2!1sru!2sby" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="footer__info">
-            <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
-            <a href="tel:84999228974" class="footer__phone">8 (499) 922-89-74</a>
-            <div class="footer__social">
-                <div class="footer__social-item"><img src="./icons/facebook.svg" alt="facebook"></div>
-                <div class="footer__social-item"><img src="./icons/instagram.svg" alt="instagram"></div>
-                <div class="footer__social-item"><img src="./icons/pinterest.svg" alt="pinterest"></div>
-            </div>
-        </div>
-    </div>
-    
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+        <img src="./icons/up.svg" alt="">
+    </a>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
